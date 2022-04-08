@@ -73,25 +73,35 @@ img {
 }
 
 
+/* Riproduzione tablet (1000px) */
+
+@media screen and (max-width: 1000px) { 
+
+    /* COMMON */
+    .row {
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 10%;
+    }
+
+    img {
+      max-width: 100%;
+      margin-right: auto;
+      margin-left: auto;
+      object-fit: scale-down;
+    }
+  
+}
+
 
 /* Riproduzione smartphone (420px) */
 
 @media screen and (max-width: 420px) {
-  
-  /* COMMON */
-  .row {
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10%;
-  }
 
+  /* COMMON */
   img {
-    max-width: 100%;
     height: auto;
-    margin-right: auto;
-    margin-left: auto;
-    object-fit: scale-down;
   }
 
   /* BLOCCO LEZIONI */
